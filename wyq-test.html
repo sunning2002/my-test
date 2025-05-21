@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // 尝试启动外部应用
+            window.location = "https://phemex.com/markets";
+            // 如果几秒后仍未跳转成功，则跳转至备用页面
+            setTimeout(function() {
+                window.location = "https://phemex.com/markets";
+            }, 2000);
+        };
+    </script>
+</head>
+<body>
+    Redirecting to the app...
+</body>
+</html>
